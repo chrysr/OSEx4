@@ -1,0 +1,28 @@
+treenode:
+treenode(char* )
+~treenode()//delete dynamic objects
+
+listnode* getlist()//get list pointer from treenode
+void setlist(listnode*)//set list pointer of treenode
+
+inode* getinode()//get inode from treenode
+void setinode(inode*)//set inode pointer of treenode
+
+listnode* find(char*)//returns listnode if (char*) exists in tree, otherwise null
+
+void printall()//prints every dir with its subdirs
+
+
+listnode
+listnode() //set pointers to null
+~listnode()//delete dynamic objects if needed
+
+listnode* getnext()//return next of listnode
+void setnext(listnode*)//set next of listnode
+
+treenode* gettreenode()//return treenode of listnode
+void settreenode(treenode *) //set treenode of listnode
+
+**********************************************************************************************************************************************
+Ayta pros to paron, an einai prosthetoume stin sinexeia. Na doume kai an einai kalitero to search na ginetai se epipedo tree i se epipedo list
+**********************************************************************************************************************************************
